@@ -21,4 +21,5 @@
 (require 'init-ess)
 (require 'init-geiser)
 (require 'init-markdown)
+(require 'init-python)
 (require 'init-tex)
