@@ -1,3 +1,5 @@
+(require-package 'grandshell-theme)
+
 (load-theme 'grandshell t)
 
 ;; If running in the GUI, do some extra things.
