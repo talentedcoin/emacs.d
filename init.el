@@ -14,11 +14,11 @@
 (require 'init-themes)
 (require 'init-zoom)
 
-(require 'init-cpp)
-(require 'init-geiser)
-(require 'init-markdown)
-(require 'init-tex)
 (require 'init-yasnippet)
 (require 'init-ggtags)
 
-
+(require 'init-cpp)
+(require 'init-ess)
+(require 'init-geiser)
+(require 'init-markdown)
+(require 'init-tex)
