@@ -1,2 +1,2 @@
 # emacs.d
-My own Emacs configuration. Hopefully logical, if nothing else.
+My own (Robert Ryan Thompson's)  Emacs configuration. Hopefully logical, if nothing else.
