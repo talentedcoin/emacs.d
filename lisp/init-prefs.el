@@ -45,8 +45,7 @@
 ;; Set fill-column to 80.
 (setq-default fill-column 80)
 
-;; Set column-number-mode to true (it's helpful for Git message).
-
+;; Set column-number-mode to true (it's helpful for Git messages).
 (setq column-number-mode t)
 
 (provide 'init-prefs)
