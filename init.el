@@ -13,7 +13,6 @@
 (require 'init-whitespace)
 (require 'init-themes)
 (require 'init-zoom)
-
 (require 'init-yasnippet)
 (require 'init-ggtags)
 
