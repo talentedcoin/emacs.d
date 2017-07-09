@@ -25,6 +25,8 @@
 
 (require 'init-org)
 
+(require 'init-fonts)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
