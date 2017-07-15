@@ -2,4 +2,4 @@
   (set-frame-font "Consolas 12" nil t)
   )
 
-(provide ‘init-fonts)
+(provide 'init-fonts)
