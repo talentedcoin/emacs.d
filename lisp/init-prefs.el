@@ -48,4 +48,7 @@
 ;; Set column-number-mode to true (it's helpful for Git messages).
 (setq column-number-mode t)
 
+;; Turn off visual line mode (word wrap).
+(setq-default truncate-lines t)
+
 (provide 'init-prefs)
