@@ -12,7 +12,6 @@
 (require 'init-prefs)
 (require 'init-whitespace)
 (require 'init-themes)
-(require 'init-zoom)
 (require 'init-yasnippet)
 (require 'init-ggtags)
 
@@ -27,6 +26,8 @@
 
 (require 'init-fonts)
 
+(require 'init-javascript)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -35,7 +36,7 @@
  ;; If there is more than one, they won't work right.
   '(package-selected-packages
      (quote
-       (elpy markdown-mode ac-geiser geiser ess ggtags yasnippet zoom-frm grandshell-theme whitespace-cleanup-mode exec-path-from-shell))))
+       (js-format indium skewer-mode ac-js2 js2-mode json-mode jsonrpc xref-js2 js-comint elm-mode pipenv elpy markdown-mode ac-geiser geiser ess ggtags yasnippet zoom-frm grandshell-theme whitespace-cleanup-mode exec-path-from-shell))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
