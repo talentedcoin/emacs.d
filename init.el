@@ -28,19 +28,19 @@
 
 (require 'init-javascript)
 
-
+(require 'init-company)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-  '(package-selected-packages
-     (quote
-       (js-format indium skewer-mode ac-js2 js2-mode json-mode jsonrpc xref-js2 js-comint elm-mode pipenv elpy markdown-mode ac-geiser geiser ess ggtags yasnippet zoom-frm grandshell-theme whitespace-cleanup-mode exec-path-from-shell))))
+ '(conda-anaconda-home "/Users/ryan/anaconda3/")
+    '(package-selected-packages
+         (quote
+             (xah-find elpy pyvenv yasnippet whitespace-cleanup-mode markdown-mode grandshell-theme ggtags exec-path-from-shell ess conda company-anaconda ac-geiser))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-(put 'erase-buffer 'disabled nil)

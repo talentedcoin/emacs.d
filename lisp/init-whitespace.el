@@ -7,11 +7,12 @@
 ;; Always save tabs as spaces.
 (setq-default indent-tabs-mode nil)
 
-;; I decided to stick with width-2 tabs ...
-(setq lisp-indent-offset 2)
-(setq tab-width 2)
-(setq default-tab-width 2)
-(setq js-indent-level 2)
+;; I decided to stick with width-4 tabs ...
+(setq lisp-indent-offset 4)
+(setq tab-width 4)
+(setq default-tab-width 4)
+(setq js-indent-level 4)
+(setq c-basic-offset 4)
 
 
 (add-hook 'sql-mode-hook '(lambda ()
