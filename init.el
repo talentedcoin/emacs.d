@@ -14,21 +14,21 @@
 (require 'init-themes)
 (require 'init-yasnippet)
 (require 'init-ggtags)
-
 (require 'init-cpp)
 (require 'init-ess)
 (require 'init-geiser)
 (require 'init-markdown)
 (require 'init-python)
 (require 'init-tex)
-
 (require 'init-org)
-
 (require 'init-fonts)
-
 (require 'init-javascript)
-
 (require 'init-company)
+
+(global-set-key (quote [f11]) (quote other-window))
+(global-set-key (quote [f12]) (quote other-frame))
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
