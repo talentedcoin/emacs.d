@@ -51,4 +51,8 @@
 ;; Turn off visual line mode (word wrap).
 (setq-default truncate-lines t)
 
+;; Turn on paren-matching.
+(setq show-paren-delay 0)
+(show-paren-mode 1)
+
 (provide 'init-prefs)
